@@ -1,0 +1,41 @@
+{
+  "Name": {
+    "message": "Video Speed Control 视频倍速播放"
+  },
+  "Des": {
+    "message": "调整视频播放倍速/设置跳过片头片尾"
+  },
+  "as": {
+    "message": "加0.1倍速"
+  },
+  "ms": {
+    "message": "减0.1倍速"
+  },
+  "rs": {
+    "message": "重置1.0倍速"
+  },
+  "cs": {
+    "message": "清空片头片尾设置"
+  },
+  "ss": {
+    "message": "深色模式切换"
+  },
+  "kj": {
+    "message": "快捷键修改"
+  },
+  "sz": {
+    "message": "打开设置"
+  },
+  "ots": {
+    "message": "设置常用快速按钮倍速"
+  },
+  "gh": {
+    "message": "问题反馈"
+  },
+  "pt": {
+    "message": "跳过片头设置（秒）"
+  },
+  "pw": {
+    "message": "跳过片尾设置（秒）"
+  }
+}

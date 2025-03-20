@@ -1,0 +1,65 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "__MSG_Name__",
+  "description": "__MSG_Des__",
+  "default_locale": "en",
+  "author": "alexposs",
+  "icons": {
+    "128": "assets/icon.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*",
+        "file://*/*"
+      ],
+      "js": [
+        "content/content.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false
+  },
+  "permissions": [
+    "storage",
+    "commands"
+  ],
+  "commands": {
+    "as": {
+      "suggested_key": {
+        "default": "Ctrl+Up"
+      },
+      "description": "__MSG_as__"
+    },
+    "ms": {
+      "suggested_key": {
+        "default": "Ctrl+Down"
+      },
+      "description": "__MSG_ms__"
+    },
+    "rs": {
+      "suggested_key": {
+        "default": "Ctrl+Right"
+      },
+      "description": "__MSG_rs__"
+    },
+    "cs": {
+      "suggested_key": {
+        "default": "Ctrl+Left"
+      },
+      "description": "__MSG_cs__"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Name": {
+    "message": "Video Speed Control 视频倍速播放"
+  },
+  "Des": {
+    "message": "Adjust Video Playback Speed, Set Skip Opening and Ending"
+  },
+  "as": {
+    "message": "Add 0.1 Speed"
+  },
+  "ms": {
+    "message": "Minus 0.1 Speed"
+  },
+  "rs": {
+    "message": "Reset 1.0 Speed"
+  },
+  "cs": {
+    "message": "Clear Skip Settings"
+  },
+  "ss": {
+    "message": "Dark Mode Toggle"
+  },
+  "kj": {
+    "message": "Shortcut Settings"
+  },
+  "sz": {
+    "message": "Open Settings"
+  },
+  "ots": {
+    "message": "Set Common Quick Button Speed"
+  },
+  "gh": {
+    "message": "Issue Feedback"
+  },
+  "pt": {
+    "message": "Set Skip Opening(s)"
+  },
+  "pw": {
+    "message": "Set Skip Ending(s)"
+  }
+}
